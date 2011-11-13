@@ -151,4 +151,7 @@ public abstract class AbstractCodeGenerator implements CodeGenerator {
     protected abstract TemplateInjector getTemplateInjector();
     protected abstract WriterProvider getWriterProvider(File destDir);
     
+	public abstract void setObjectFilter(ObjectFilter objectFilter);
+
+	public abstract void setFieldFilter(FieldFilter fieldFilter);
 }
