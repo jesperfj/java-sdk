@@ -154,4 +154,6 @@ public abstract class AbstractCodeGenerator implements CodeGenerator {
 	public abstract void setObjectFilter(ObjectFilter objectFilter);
 
 	public abstract void setFieldFilter(FieldFilter fieldFilter);
+
+	public abstract void setPackageName(String packageName);
 }
